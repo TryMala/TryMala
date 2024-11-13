@@ -1,0 +1,13 @@
+sign up -> contat us
+vidoe -> to detemin 
+handle channles desc
+Integrate the tools you already use -> government
+view more
+
+--
+hugo server --themesDir themes/
+cp -a /github/trymala/themes/copper-hugo/themes/. /github/trymala/themes/copper-hugo/
+
+--
+Works Across All Buying Channels -> one line
+iocns for buying all
