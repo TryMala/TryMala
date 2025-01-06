@@ -14,20 +14,43 @@
         <form method="POST" class="rounded shadow p-30" action="{{site.Params.contact_form_action}}">
           <div class="form-group mb-30">
             <label class="h5 font-weight-600 mb-2" for="fname">{{ i18n "name"}}</label>
-            <input class="form-control shadow-none" name="Name" type="text" id="fname" required>
+            <input class="form-control shadow-none" name="Name" type="text" id="fname">
           </div>
+
           <div class="form-group mb-30">
-            <label class="h5 font-weight-600 mb-2" for="email">{{i18n "mail"}}</label>
+            <label class="h5 font-weight-600 mb-2" for="message">{{ i18n "message"}} <span class="text-danger">*</span> </label>
+            <input class="form-control shadow-none" name="Mobile Number" type="tel" id="message" required>
+          </div>
+
+          <div class="form-group mb-30">
+            <label class="h5 font-weight-600 mb-2" for="email">{{i18n "mail"}} <span class="text-danger">*</span> </label>
             <input class="form-control shadow-none" name="Email" type="email" id="email" required>
           </div>
           <div class="form-group mb-30">
             <label class="h5 font-weight-600 mb-2" for="website">{{i18n "website"}}</label>
             <input class="form-control shadow-none" name="Website" type="url">
           </div>
+
+
           <div class="form-group mb-30">
-            <label class="h5 font-weight-600 mb-2" for="message">{{ i18n "message"}}</label>
-            <input class="form-control shadow-none" name="Mobile Number" rows="3" id="message" required>
+            <label class="h5 font-weight-600 mb-2" for="transaction">Expected transaction amount (SAR)</label>
+            <input class="form-control shadow-none" name="Expected transaction amount (SAR)" type="number" id="transaction">
           </div>
+
+          <div class="form-group mb-30">
+            <label class="h5 font-weight-600 mb-2" for="industry">Industry</label>
+            <select class="form-control shadow-none" name="industry" id="industry">
+              <option value="" selected disabled>Select your industry</option>
+              <option value="retail">Retail</option>
+              <option value="manufacturing">Manufacturing</option>
+              <option value="healthcare">Healthcare</option>
+              <option value="technology">Technology</option>
+              <option value="education">Education</option>
+              <option value="finance">Finance & Banking</option>
+              <option value="other">Other</option>
+          </select>
+          </div>
+          
           <button class="btn btn-primary w-100" type="submit">{{ i18n "submit"}}</button>
         </form>
       </div>
