@@ -35,9 +35,9 @@ jobs:
       HUGO_VERSION: 0.140.2
     steps:
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
-          node-version: '23.5.0'  # Specify exact Node.js version
+          node-version: '20'  
           
       - name: Install Hugo CLI
         run: |
