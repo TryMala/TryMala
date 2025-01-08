@@ -139,25 +139,25 @@
     <div class="row justify-content-center">
       <div class="col-lg-6 col-md-9 text-center mb-40">
         <!-- <h2 class="section-title">{{ .title | markdownify }}</h2> -->
-        <h2 id="{{ .title | anchorize }}" class="section-title">{{ .title | markdownify }}</h2>
+        <h2 id="{{ if .section_id }}{{ .section_id }}{{ else }}{{ .title | anchorize }}{{ end }}" class="section-title">{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
       </div>
       <div class="col-lg-11">
         <ul class="nav nav-pills justify-content-center mb-20" id="pills-tab" role="tablist">
           {{ range $i, $e:= .tablist }}
           <li class="nav-item mb-20" role="presentation">
-            <a class="nav-link {{ if eq $i 0 }}active{{ end }}" id="pill-{{ .title| urlize }}" data-bs-toggle="pill"
-              href="#{{ .title| urlize }}" role="tab" aria-controls="{{ .title| urlize }}" aria-selected="true">
+            <a class="nav-link {{ if eq $i 0 }}active{{ end }}" id="pill-{{ .tab_id }}" data-bs-toggle="pill"
+              href="#{{ .tab_id }}" role="tab" aria-controls="{{ .tab_id }}" aria-selected="true">
               <i class="circle-shape"></i>{{ .name }}
             </a>
           </li>
           {{ end }}
         </ul>
-
+        
         <div class="tab-content" id="pills-tabContent">
           {{ range $i, $e:= .tablist }}
-          <div class="tab-pane fade {{ if eq $i 0 }}show active{{ end }}" id="{{ .title | urlize }}" role="tabpanel"
-            aria-labelledby="pill-{{ .title | urlize }}">
+          <div class="tab-pane fade {{ if eq $i 0 }}show active{{ end }}" id="{{ .tab_id }}" role="tabpanel"
+            aria-labelledby="pill-{{ .tab_id }}">
             <div class="row align-items-center">
               <div class="col-lg-8 anim-to-top">
                 {{ partial "image.html" (dict "Src" .image "Alt" "how it works" "Class" `rounded-lg shadow`) }}
@@ -245,7 +245,7 @@
       <!-- <div class="row align-items-center"> -->
       <div class="col-lg-8">
         <!-- <h2 class="section-title">{{ .title | markdownify }}</h2> -->
-        <h2 id="{{ .title | anchorize }}" class="section-title">{{ .title | markdownify }}</h2>
+        <h2 id="{{ if .section_id }}{{ .section_id }}{{ else }}{{ .title | anchorize }}{{ end }}" class="section-title">{{ .title | markdownify }}</h2>
         <p class="border-bottom pb-30 me-0 me-lg-5">
           {{ .content | markdownify }}
         </p>
@@ -356,7 +356,7 @@
     <div class="row align-items-center justify-content-around">
       <div class="col-lg-5 col-md-8 col-sm-10 mb-5">
         <!-- <h2 class="section-title">{{ .title | markdownify }}</h2> -->
-        <h2 id="{{ .title | anchorize }}" class="section-title">{{ .title | markdownify }}</h2>
+        <h2 id="{{ if .section_id }}{{ .section_id }}{{ else }}{{ .title | anchorize }}{{ end }}" class="section-title">{{ .title | markdownify }}</h2>
         <p class="pb-20 border-bottom mb-20">
           {{ .content | markdownify }}
         </p>
@@ -376,13 +376,16 @@
     </div>
   </div>
 </section>
+{{ end }}
+{{ end }}
 
-<!-- start contact section -->
+{{ if .Params.contact.enable }}
+{{ with .Params.contact }}
 <section class="section-padding bg-light-gray" data-aos="fade-in">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center mb-5">
-        <h2 id="contact-us" class="section-title">Contact Us</h2>
+        <h2 id="{{ .section_id }}" class="section-title">{{ .title | markdownify }}</h2>
       </div>
       <div class="col-lg-8">
         <form method="POST" class="rounded shadow bg-white p-30" action="{{site.Params.contact_form_action}}">
@@ -414,14 +417,10 @@
           <div class="form-group mb-30">
             <label class="h5 font-weight-600 mb-2" for="industry">{{i18n "industry"}}</label>
             <select class="form-control shadow-none" name="industry" id="industry">
-              <option value="" selected disabled>Select your industry</option>
-              <option value="retail">Retail</option>
-              <option value="manufacturing">Manufacturing</option>
-              <option value="healthcare">Healthcare</option>
-              <option value="technology">Technology</option>
-              <option value="education">Education</option>
-              <option value="finance">Finance & Banking</option>
-              <option value="other">Other</option>
+              <option value="" selected disabled>{{ i18n "select_industry" }}</option>
+              {{ range .options }}
+                <option value="{{ .value }}">{{ .label }}</option>
+              {{ end }}
             </select>
           </div>
           
@@ -437,11 +436,10 @@
   <div class="shape-3 shape-xs-2 bg-orange rounded-circle"></div>
   <div class="shape-4 shape-xs bg-cyan rounded-circle"></div>
 </section>
-<!-- end contact section -->
 
 {{ end }}
 {{ end }}
-<!-- end section -->
+
 
 {{ partial "components/testimonial.html" . }}
 

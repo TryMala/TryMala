@@ -1,0 +1,24 @@
+- id: name
+  translation: الاسم
+  
+- id: mail
+  translation: البريد الالكتروني
+  
+- id: website
+  translation: الموقع الالكتروني
+  
+- id: message
+  translation: رقم الجوال
+  
+- id: submit
+  translation: التأكيد
+
+- id: transaction
+  translation: حجم الطلب المتوقع بالريال
+
+- id: industry
+  translation: القطاع
+
+- id: select_industry
+  translation: اختر مجال عملك
+  

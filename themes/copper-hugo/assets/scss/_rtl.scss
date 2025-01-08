@@ -1,0 +1,44 @@
+[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+  
+    // Navigation and header
+    .nav-items {
+      padding-right: 0;
+    }
+  
+    // Banner section
+    .banner {
+      .order-lg-1 {
+        order: 0;
+      }
+      .order-lg-0 {
+        order: 1;
+      }
+    }
+  
+    // Buttons with icons
+    .btn.has-icon {
+      .icon {
+        transform: rotate(180deg);
+      }
+    }
+  
+    // Forms
+    .form-group {
+      text-align: right;
+    }
+  
+    // Lists and bullets
+    .check-list {
+      padding-right: 0;
+      li {
+        padding-right: 2rem;
+        padding-left: 0;
+        svg {
+          margin-right: 0;
+          margin-left: 0.5rem;
+        }
+      }
+    }
+}

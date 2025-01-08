@@ -48,6 +48,7 @@ homepage_tab:
   # tab item
   - name : "Cash Flow Liberation"
     title : "**Cash Flow** Liberation"
+    tab_id: "tab-1"
     image : "images/screenshots/how-it-works-1.jpg"
     content : "With Mala, businesses unlock the power to procure goods without cash flow constraints. This means more than just financial relief—it's the freedom to invest in growth, seize opportunities, and thrive in any economic climate"
     button:
@@ -58,6 +59,7 @@ homepage_tab:
   # tab item
   - name : "Capital Empowerment"
     title : "**Capital** Empowerment"
+    tab_id: "tab-2"
     image : "images/screenshots/03.png"
     content : "Mala empowers businesses to optimize their working capital utilization like never before. By minimizing tied-up funds and maximizing efficiency, organizations can supercharge their operations, fuel innovation, and stay ahead of the competition"
     button:
@@ -68,6 +70,7 @@ homepage_tab:
   # tab item
   - name : "Rapid Growth Catalyst"
     title : "Rapid **Growth** Catalyst"
+    tab_id: "tab-3"
     image : "images/screenshots/04.png"
     content : "Say goodbye to slow growth. With Mala, expansion is not just possible—it's inevitable. By removing barriers to procurement, businesses can accelerate their growth trajectory, enter new markets, and scale operations faster than ever before"
     button:
@@ -184,6 +187,26 @@ about_us:
     
     - "**NCA Compliance** <br> comply with the national cybersecurity authorities and its standards and policies to ensure high standards for cyber threats"
     
+############################## contact us ################################
+contact:
+  enable: true
+  section_id: "contact-us"
+  title: "Contact Us"
+  options:
+    - value: "retail"
+      label: "Retail"
+    - value: "manufacturing"
+      label: "Manufacturing"
+    - value: "healthcare"
+      label: "Healthcare"
+    - value: "technology"
+      label: "Technology"
+    - value: "education"
+      label: "Education"
+    - value: "finance"
+      label: "Finance & Banking"
+    - value: "other"
+      label: "Other"
 
 # ############################# Testimonial ############################
 # testimonial:

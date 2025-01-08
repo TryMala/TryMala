@@ -15,6 +15,20 @@ disableLanguages = ["fr"]
 # ] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 
+defaultContentLanguage = "ar"
+
+[languages]
+  [languages.ar]
+    languageCode = "ar"
+    languageName = "العربية"
+    contentDir = "content/arabic"
+    weight = 1
+    
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    contentDir = "content/english"
+    weight = 2
 
 ############################# Modules ############################
 [module]

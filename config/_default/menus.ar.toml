@@ -1,0 +1,36 @@
+# main menu
+[[main]]
+name = "الرئيسية"
+url = ""
+weight = 1
+
+[[main]]
+name = "المميزات"
+url = "#features"
+weight = 2
+
+[[main]]
+name = "قنوات البيع"
+url = "#channels"
+weight = 3
+
+[[main]]
+name = "الحماية"
+url = "#security"
+weight = 4
+
+[[main]]
+name = "تواصل معنا"
+url = "#contact-us"
+weight = 5
+
+# Footer menu
+[[footer]]
+name = "الرئيسية"
+url = ""
+weight = 1
+
+[[footer]]
+name = "تواصل معنا"
+url = "#contact-us"
+weight = 6
