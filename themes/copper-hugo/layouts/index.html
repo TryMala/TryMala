@@ -407,12 +407,12 @@
           </div>
 
           <div class="form-group mb-30">
-            <label class="h5 font-weight-600 mb-2" for="transaction">Expected transaction amount (SAR)</label>
+            <label class="h5 font-weight-600 mb-2" for="transaction">{{i18n "transaction"}}</label>
             <input class="form-control shadow-none" name="Expected transaction amount (SAR)" type="number" id="transaction">
           </div>
 
           <div class="form-group mb-30">
-            <label class="h5 font-weight-600 mb-2" for="industry">Industry</label>
+            <label class="h5 font-weight-600 mb-2" for="industry">{{i18n "industry"}}</label>
             <select class="form-control shadow-none" name="industry" id="industry">
               <option value="" selected disabled>Select your industry</option>
               <option value="retail">Retail</option>
@@ -444,6 +444,5 @@
 <!-- end section -->
 
 {{ partial "components/testimonial.html" . }}
-
 
 {{ end }}
