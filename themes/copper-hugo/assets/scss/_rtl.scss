@@ -31,14 +31,17 @@
   
     // Lists and bullets
     .check-list {
-      padding-right: 0;
       li {
-        padding-right: 2rem;
-        padding-left: 0;
-        svg {
-          margin-right: 0;
-          margin-left: 0.5rem;
-        }
+          position: relative;
+          padding-right: 2rem;
+          padding-left: 0;
+          
+          .check-icon {
+              position: absolute;
+              right: 0;
+              top: 4px;
+              transform: scaleX(1);  // Remove the -1 to keep original direction
+          }
       }
-    }
+  }
 }
