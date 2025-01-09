@@ -68,7 +68,7 @@
   translation: Recomended
 
 - id: transaction
-  translation: Expected transaction amount (SAR)
+  translation: Expected invoice amount (SAR)
 
 - id: industry
   translation: Industry 
