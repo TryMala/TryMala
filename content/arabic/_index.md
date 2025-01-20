@@ -15,10 +15,10 @@ banner:
 homepage_tab:
   enable: true
   section_id: "features"
-  title: "**التميز في خدمات الشركات بكل بساطة**"
+  title: "**التميز في خدمـات الشـركات**"
   tablist:
   # tab item
-  - name: "تحرير التدفق النقدي"
+  - name: "ادارة التدفق النقدي"
     title: "**التدفق النقدي** بلا قيود"  # This will be displayed
     tab_id: "tab-1"  # This will be used for linking
     image: "images/screenshots/how-it-works-1.jpg"
@@ -73,7 +73,7 @@ achivement:
     icon: "far fa-thumbs-up"
     
   - name: "**المبيعات الهاتفية**"
-    desc: "راحة الاتصال: للمشتريات عبر الهاتف<br>&nbsp;"
+    desc: "راحة الاتصـال: للمشتريـات السريعـة عبر الهاتف"
     icon: "far fa-comment-dots"
     
   - name: "**متجر تقليدي**"
@@ -95,14 +95,14 @@ workflow:
     label: "**معلومات العمل**"
 
   - name: "استلم البضائع"
-    title: "احصل على بضائعك المعتمدة مباشرة إليك"
+    title: "احصل على بضائعك المعتمدة مباشرة"
     tab_id: "step-3"
     label: "**استلام البضائع**"
 
 about_us:
   enable: true
   section_id: "security" 
-  title: "**أمان مالا المتين**"
+  title: "**حماية المعلومات**"
   image: "images/about/01.jpg"
   bulletpoints:
     - "**تشفير البيانات** <br> بروتوكولات تشفير قوية - TLS 1.2/1.3 - تضمن بقاء معلوماتك آمنة تماماً. وعند تخزينها، نقوم بتحصينها بتشفير AES 256-bit، مما يحول بياناتك إلى قلعة لا يمكن اختراقها"
