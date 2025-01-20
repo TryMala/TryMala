@@ -16,13 +16,33 @@
         order: 1;
       }
     }
-  
-    // Buttons with icons
+    
+    // Button with icon styles
     .btn.has-icon {
+      padding: 14px 20px;
+      padding-left: 60px !important;  // Change right padding to left
+      padding-right: 20px !important; // Reset right padding
+
       .icon {
-        transform: rotate(180deg);
+          right: auto;  // Remove right positioning
+          left: 0;      // Position icon on left
+          border-radius: 0;  // Reset border radius
+          border-top-left-radius: 5px;    // Apply to left side
+          border-bottom-left-radius: 5px;
+          
+          svg {
+              margin-left: 0;
+              margin-right: -1px;
+              transform: scaleX(-1); // Flip the arrow
+          }
       }
-    }
+
+      &:hover {
+          .icon svg {
+              transform: scaleX(-1) translateX(-3px); // Flip arrow and adjust hover animation
+          }
+      }
+  }
   
     // Forms
     .form-group {
