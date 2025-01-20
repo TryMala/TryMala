@@ -10,8 +10,6 @@ assets/jsconfig.json
 
 # Dependencies
 /node_modules/
-go.mod
-go.sum
 
 # OS files
 .DS_Store
