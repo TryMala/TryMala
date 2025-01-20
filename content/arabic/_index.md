@@ -10,7 +10,7 @@ banner:
   form:
     enable: true
     form_action: "https://formspree.io/f/xpwzlazr"
-    button_label: "أنا مهتم"
+    button_label: "سجل اهتمامك"
 
 homepage_tab:
   enable: true
