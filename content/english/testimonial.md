@@ -2,7 +2,7 @@
 title : "Testimonials"
 description : "this is meta description"
 layout : "testimonial"
-draft : false
+draft : true
 
 ################ Testimonial ###############
 testimonial_item:

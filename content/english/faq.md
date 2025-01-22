@@ -5,7 +5,7 @@ layout : "faq"
 draft : false
 ---
 
-### How to start with Copper?
+### About Mala
 
 {{< accordion "How can I integrate Copper to my current tool stack?" >}}
 **Service Provided As:**
@@ -58,4 +58,13 @@ moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesc
 Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
 shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
 proident. Ad vegan excepteur butcher vice lomo.
+{{</ accordion >}}
+
+# Hi there can you see me? 
+{{< accordion "put your question here?" >}}
+ and your answer here 
+### like this? 
+**or like this?**
+# maybe this?? 
+
 {{</ accordion >}}

@@ -2,7 +2,7 @@
 title : "Changelog"
 description : "this is meta description"
 layout : "changelog"
-draft : false
+draft : true
 sidelist:
 - "v1.0.4 (January 19,2020)"
 - "v1.0.2 (January 10,2020)"

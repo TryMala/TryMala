@@ -2,7 +2,7 @@
 title : "Contact Us"
 description : "this is meta description"
 layout : "contact"
-draft : false
+draft : true
 
 
 ########## Address ###############

@@ -2,7 +2,7 @@
 title : "Services"
 description : "this is meta description"
 layout : "services"
-draft : false
+draft : true
 
 services:
 - name : "Attached coache"

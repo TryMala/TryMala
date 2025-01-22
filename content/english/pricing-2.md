@@ -4,7 +4,7 @@ description : "this is meta description"
 layout : "pricing-2"
 # you can set only monthly, only yearly, or toggle both
 monthly_yearly_toggle: "toggle" # available value "monthly"/"yearly"/"toggle"
-draft : false
+draft : true
 
 # pricing head/title
 pricing_table_info:

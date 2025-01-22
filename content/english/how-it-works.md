@@ -2,7 +2,7 @@
 title : "How It Works"
 description : "this is meta description"
 layout : "how-it-works"
-draft : false
+draft : true
 ---
 
 {{< section-1 image="images/screenshots/how-it-works-1.jpg">}}

@@ -5,7 +5,7 @@ layout : "pricing"
 offer : "Save 50% On Annual Subscription"
 # you can set only monthly, only yearly, or toggle both
 monthly_yearly_toggle: "toggle" # available value "monthly"/"yearly"/"toggle"
-draft : false
+draft : true
 
 
 # pricing card

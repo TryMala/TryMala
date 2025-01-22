@@ -2,7 +2,7 @@
 title : "Privacy Policy"
 description : "this is meta description"
 layout : "regular"
-draft : false
+draft : true
 ---
 
 ### GDPR Compliance
