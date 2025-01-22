@@ -1,7 +1,7 @@
 ---
 title : "Career"
 description : "this is meta description"
-draft : false
+draft : true
 
 ################ Intro #########################
 intro:
