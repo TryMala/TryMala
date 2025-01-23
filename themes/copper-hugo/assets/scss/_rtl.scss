@@ -64,4 +64,34 @@
           }
       }
   }
+  
+  // FAQ Button direction 
+  .accordion button {
+    svg {
+      transform: rotate(90deg);  // This will flip the arrow horizontally
+    }
+  }
+
+  .breadcrumb {
+    direction: rtl;
+    padding: 0;
+    
+    .breadcrumb-item {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      
+      // Remove all default separators
+      &::before {
+        display: none;
+      }
+      
+      // Add separator only between items
+      &:not(:last-child)::after {
+        content: "/";
+        margin: 0 0.5rem;
+        color: inherit;
+      }
+    }
+  }
 }

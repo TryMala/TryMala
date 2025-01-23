@@ -2,7 +2,7 @@
 title : "About Us"
 description : "this is meta description"
 layout : "about"
-draft : false
+draft : true
 
 ################## Mission ###############
 mission:

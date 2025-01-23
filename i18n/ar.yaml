@@ -1,3 +1,16 @@
+- id: quick_links
+  translation: روابط تهمك
+  
+- id: social_links
+  translation: تابعنا
+  
+- id: subscribe
+  translation: Lets Subscribe Your Email
+  
+- id: home
+  translation: الرئيسية
+
+################################
 - id: name
   translation: الاسم
   

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.LanguageCode | default `en-US` }}">
+<html lang="{{ site.LanguageCode | default `en-US` }}" dir="{{ if eq site.Language.Lang `ar` }}rtl{{ else }}ltr{{ end }}">
 {{ partial "essential/head.html" . }}
 {{ partialCached "essential/style.html" . }}
 {{ partialCached "components/preloader.html" . }}
@@ -90,11 +90,11 @@
   {{ .Scratch.Set "bg" "bg-light-gray" }}
   {{ partial "essential/header.html" . }}
   {{ partial "components/page-header.html" . }}
-  <section class="section-padding">
+  <section class="section-padding" {{ if eq .Language.Lang "ar" }}dir="rtl"{{ end }}>
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <div class="content">
+          <div class="content" {{ if eq .Language.Lang "ar" }}dir="rtl"{{ end }}>
             {{.Content}}
           </div>
         </div>

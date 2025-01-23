@@ -34,3 +34,8 @@ weight = 1
 name = "تواصل معنا"
 url = "#contact-us"
 weight = 6
+
+[[footer]]
+name = "الاسئلة الشائعة"
+url = "faq/"
+weight = 3
