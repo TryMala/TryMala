@@ -1,13 +1,13 @@
 ---
 title : "Terms & Conditions"
-description : "this is meta description"
+description : "Read the terms and conditions for using Mala's services, including details on obligations, rights, and usage policies for both buyers and sellers."
 layout : "regular"
-draft : true
+draft : false
 ---
 
-## 1. The Terms
+#### 1. The Terms
 
-1.1 Mala provides customers with a variety of innovative consumer purchasing solutions, including buy now pay later services (“BNPL”), cashback services, and other consumer solutions available through our channels (each referred to as a “Mala Service” and collectively as the “Mala Services”).
+1.1 Mala provides customers with a variety of innovative consumer purchasing solutions, including B2B Buy now pay later services (“B2B BNPL”), cashback services, and other consumer solutions available through our channels (each referred to as a “Mala Service” and collectively as the “Mala Services”).
 
 1.2 The Mala Services are provided by Mala Tech LLC, a company registered in Riyadh, Saudi Arabia (“Mala”) (referred to throughout these terms and conditions (“Terms”) as "we," "us," or "our").
 
@@ -21,23 +21,23 @@ draft : true
 
 1.7 You are responsible for regularly reviewing the App or Website to stay informed of amendments to these Terms and to provide your agreement to them.
 
-## 2. Mala Services
+#### 2. Mala Services
 
-### Pay Later:
+**B2B Pay Later:**
 
-2.1 On the condition you have a Mala Account you will be able to use our Pay Later service to buy Products with associated Merchants.
+2.1 On the condition you have a Mala Account you will be able to use our B2B Pay Later service to buy Products with associated Merchants.
 
-2.2 Pay Later allows you to pay for the total cost of a number of Products (“Products Amount”) via your monthly bill, paid as a single payment on the specific monthly billing date (“Billing Date”).
+2.2 B2B Pay Later allows you to pay for the total cost of a number of Products (“Products Amount”) via your monthly bill, paid as a single payment on the specific monthly billing date (“Billing Date”).
 
-2.3 You can also apply to use Pay Later at checkout, with certain Merchants.
+2.3 You can also apply to use B2B Pay Later at checkout, with certain Merchants.
 
 2.4 Approval of a checkout application will be subject to our review of your data and circumstances.
 
-2.5 We explicitly reserve the right, at our absolute discretion at any time, to decline your application for Pay Later application, based on our review of your data and circumstances, and will inform you of our decision.
+2.5 We explicitly reserve the right, at our absolute discretion at any time, to decline your application for B2B Pay Later application, based on our review of your data and circumstances, and will inform you of our decision.
 
-2.6 If your Mala Account has a sufficient balance or your Pay Later application is approved (as appropriate), we will pay the Merchants the Products Amount for the Products you purchased, on your behalf. You agree to repay the Products Amount to us in full via one payment on your Billing Date in accordance with these Terms.
+2.6 If your Mala Account has a sufficient balance or your B2B Pay Later application is approved (as appropriate), we will pay the Merchants the Products Amount for the Products you purchased, on your behalf. You agree to repay the Products Amount to us in full via one payment on your Billing Date in accordance with these Terms.
 
-2.7 Pay Later is only available to eligible persons. Whether you are eligible will be determined by us at our discretion and will depend on numerous factors such as our assessment of your creditworthiness, your history of transactions, the Merchant's account history, as well as the following criteria:
+2.7 B2B Pay Later is only available to eligible persons. Whether you are eligible will be determined by us at our discretion and will depend on numerous factors such as our assessment of your creditworthiness, your history of transactions, the Merchant's account history, as well as the following criteria:
 
 2.7.1 you are living in Saudi Arabia and have provided your permanent residential address;
 
@@ -51,19 +51,19 @@ draft : true
 
 2.7.6 you declare that any payment obligations arising from your purchase will be met by you pursuant to the payment terms agreed at the time of purchase.
 
-### Pay in Full:
+**Pay in Full:**
 
-2.18 If you have a Mala Account, we may at our discretion allow you to use our Pay In Full service to buy Products with certain Merchants and pay the entire Products Amount at the time of checkout.
+2.8 If you have a Mala Account, we may at our discretion allow you to use our Pay In Full service to buy Products with certain Merchants and pay the entire Products Amount at the time of checkout.
 
-2.19 We explicitly reserve the right, at our absolute discretion at any time, to decline your application for Pay in Full, based on our review of your data and circumstances, and will inform you of our decision.
+2.9 We explicitly reserve the right, at our absolute discretion at any time, to decline your application for Pay in Full, based on our review of your data and circumstances, and will inform you of our decision.
 
-2.20 If your Pay In Full application is approved, we will pay the Merchants the Products Amount for the Products you purchased, on your behalf. You agree to repay the Products Amount to us in full and authorize Mala to charge such amount to your selected payment method immediately upon checkout.
+2.10 If your Pay In Full application is approved, we will pay the Merchants the Products Amount for the Products you purchased, on your behalf. You agree to repay the Products Amount to us in full and authorize Mala to charge such amount to your selected payment method immediately upon checkout.
 
-2.21 If you are entitled to a refund in accordance with the Merchant’s refund policy and these Terms, the full amount paid under the "Pay in Full" option will be refunded to the original payment method used.
+2.11 If you are entitled to a refund in accordance with the Merchant’s refund policy and these Terms, the full amount paid under the "Pay in Full" option will be refunded to the original payment method used.
 
-2.22 Orders paid in full can be canceled before the order is processed for shipment. If canceled after payment has been made, a full refund will be issued, subject to our cancellation policy.
+2.12 Orders paid in full can be canceled before the order is processed for shipment. If canceled after payment has been made, a full refund will be issued, subject to our cancellation policy.
 
-## 3. Your Information
+#### 3. Your Information
 
 3.1 You agree that when you provide information to us, you will only and at all times provide true, accurate, current, and complete information, and you agree not to misrepresent your identity or any of your account information or related details.
 
@@ -77,13 +77,13 @@ draft : true
 
 3.6 We may also disclose any information aggregated by us or report your repayment history and credit behavior to any credit bureaus (including the Saudi Credit Bureau) or any other agency authorized and approved by the Saudi Central Bank (“SAMA”), in accordance with our obligations under applicable law or as mandated by SAMA.
 
-## 4. Payment Methods and Statements
+#### 4. Payment Methods and Statements
 
-### Payment Methods
+**Payment Methods**
 
 4.1 Before completing any transaction on your behalf through the Mala Services, you must agree to these Terms and any specific terms applicable to that transaction.
 
-4.2 Clicking the "Buy Now" button indicates that you have read, understood, and accepted these Terms in full and that you accept your obligation to pay the Total Amount, including any fees and any other transactions that may be charged to your account, in accordance with the Terms.
+4.2 Clicking the "Buy now" button indicates that you have read, understood, and accepted these Terms in full and that you accept your obligation to pay the Total Amount, including any fees and any other transactions that may be charged to your account, in accordance with the Terms.
 
 4.3 You acknowledge that a down payment must be paid before you are accepted for the Mala Services. This will become the first Installment which is immediately due and payable.
 
@@ -111,7 +111,7 @@ draft : true
 
 4.15 You have the right to stop a payment on an added credit or debit card by providing a replacement card in the Mala App at least 3 business days before your next payment Installment due date. Mala may, at its absolute discretion, refuse to accept the removal or replacement of any payment method.
 
-### Statements
+**Statements**
 
 4.16 Upon accessing Mala Services, you will be granted access to Statements that outline the methods and procedures for making repayments under the applicable Mala Service.
 
@@ -151,9 +151,9 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 4.23.2 Within the Mala Card section of the App.
 
-## 5. Buy Now Pay Later
+#### 5. B2B Buy now Pay Later
 
-5.1 By selecting our BNPL payment option at the checkout page, you authorize us to charge the eligible card you added and provided to us at checkout (or which you later provide to us) over time for the number of Installments that you have added at checkout.
+5.1 By selecting our B2B BNPL payment option at the checkout page, you authorize us to charge the eligible card you added and provided to us at checkout (or which you later provide to us) over time for the number of Installments that you have added at checkout.
 
 5.2 The payment date, and amount of each Installment we will charge, will be shown on the Website before you complete your purchase.
 
@@ -169,9 +169,9 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 5.4 If any automatic charge of an Installment or the Total Amount Due fails, you are required to make the required payment immediately.
 
-### Pay Later
+**B2B Pay Later**
 
-5.5 By selecting our Pay Later payment option at the checkout page, you authorize us to charge the eligible card you added and provided to us at checkout (or which you later provide to us) over time on the Billing Date for the Products Amount.
+5.5 By selecting our B2B Pay Later payment option at the checkout page, you authorize us to charge the eligible card you added and provided to us at checkout (or which you later provide to us) over time on the Billing Date for the Products Amount.
 
 5.6 The Billing Date, and Products Amount we will charge, will be shown on the Website before you complete your purchase.
 
@@ -185,7 +185,7 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 5.8 If any automatic charge of a Products Amount on the Billing Date fails, you are required to make the required payment immediately, alongside any applicable late fees due and payable in accordance with these terms.
 
-## 6. Payment Default
+#### 6. Payment Default
 
 6.1 We have the right, subject to any specific requirements under applicable law to provide you with a cure period, to declare you in default for any of the following reasons:
 
@@ -201,7 +201,7 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 6.3 You agree we have the right to seek immediate payment of this amount by charging the credit or debit card you provided for pre-authorization under these Terms.
 
-## 7. Late Payment
+#### 7. Late Payment
 
 7.1 In the event any Installment is not paid in full on the Due Date (“Late Payment”), you are obligated to pay additional collection fees calculated from the date you are in default.
 
@@ -219,9 +219,9 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 7.4 We can additionally require immediate payment of the Total Amount Due and, unless prohibited by applicable law, we can also require you to pay the costs we incur in any collection proceeding, as well as reasonable attorneys' fees if we refer your Mala Account for collection to an attorney or collection agency.
 
-## 8. Extend Due Date Option
+#### 8. Extend Due Date Option
 
-8.1 An option to extend the Due Date of any Installment (either a BNPL payment or a payment due under a Statement) (“Extend Due Date Option”) may be offered at Mala's sole discretion when you shop at certain Merchants.
+8.1 An option to extend the Due Date of any Installment (either a B2B BNPL payment or a payment due under a Statement) (“Extend Due Date Option”) may be offered at Mala's sole discretion when you shop at certain Merchants.
 
 8.2 If you think you will need more time to make funds available on your payment method before your Due Date, you may apply for the Extend Due Date Option.
 
@@ -231,7 +231,7 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 8.5 Choosing the Extend Due Date Option does not affect or limit your obligations, including your obligation to pay Installments, under these Terms.
 
-## 9. Our Rights
+#### 9. Our Rights
 
 9.1 We may set a total purchase limit (“Limit”) for you which will be disclosed on your Mala Account when you login at our Website or open the App.
 
@@ -273,9 +273,9 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 9.14 You hereby acknowledge and agree we are authorized to exercise the same rights against you as the Merchant may exercise based on the Products.
 
-9.15 Save for any receivables, accounts payable, book and other debts, proceeds and other rights to receive money that are otherwise the subject of a transfer and/or a security interest pursuant to clause 9.13, and as part of a wider financing transaction, we have agreed to sell, assign and transfer all of our rights, title and benefit to selected receivables, accounts payable, book and other debts, proceeds and other rights to receive money under or in connection with these Terms and that have the prefix “LTF” in the unique identification number of the BNPL agreement or transaction to which they relate (the “Flow II Receivables”) from time to time to Flow Finance II Designated Activity Company (the “Purchaser”). You hereby agree to and acknowledge the sale, assignment and transfer provided for in this clause 9.15 and that this clause 9.15 shall constitute notice of such sale, assignment and transfer. Until such time as you are notified to the contrary, we will continue to administer and service the Flow II Receivables on behalf of the Purchaser. Further, until notified to the contrary, you must discharge your obligation to make payment in connection with the Flow II Receivables to the Purchaser by paying such amounts in accordance with, and to the persons specified in, these Terms. In connection with such sale, assignment and/or transfer, you agree and acknowledge that we may disclose any information relating to your agreement with us and your use of the relevant Mala Service representing the Flow II Receivable to the Purchaser, any financier of the Purchaser and any of their respective directors, nominees, employees, professional service providers and advisors.
+9.15 Save for any receivables, accounts payable, book and other debts, proceeds and other rights to receive money that are otherwise the subject of a transfer and/or a security interest pursuant to clause 9.13, and as part of a wider financing transaction, we have agreed to sell, assign and transfer all of our rights, title and benefit to selected receivables, accounts payable, book and other debts, proceeds and other rights to receive money under or in connection with these Terms and that have the prefix “LTF” in the unique identification number of the B2B BNPL agreement or transaction to which they relate (the “Flow II Receivables”) from time to time to Flow Finance II Designated Activity Company (the “Purchaser”). You hereby agree to and acknowledge the sale, assignment and transfer provided for in this clause 9.15 and that this clause 9.15 shall constitute notice of such sale, assignment and transfer. Until such time as you are notified to the contrary, we will continue to administer and service the Flow II Receivables on behalf of the Purchaser. Further, until notified to the contrary, you must discharge your obligation to make payment in connection with the Flow II Receivables to the Purchaser by paying such amounts in accordance with, and to the persons specified in, these Terms. In connection with such sale, assignment and/or transfer, you agree and acknowledge that we may disclose any information relating to your agreement with us and your use of the relevant Mala Service representing the Flow II Receivable to the Purchaser, any financier of the Purchaser and any of their respective directors, nominees, employees, professional service providers and advisors.
 
-## 10. Dispute Rights
+##### 10. Dispute Rights
 
 10.1 Any complaints in relation to Products shall be handled exclusively by the Merchant and you hereby agree that Mala has no responsibility or liability to you in respect of any issue of performance, merchantability, or suitability of the Products themselves. You acknowledge and agree that your payment obligations under these Terms, including the repayment of any amounts owed to Mala, are independent of the fulfillment or non-fulfillment of any Products or services by the Merchant. Non-performance, delays, or any other issue related to the Product or service will not affect, reduce, or eliminate your obligation to repay the Total Amount Due to Mala in accordance with these Terms.
 
@@ -285,7 +285,7 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 10.4 Complaints in relation to Mala or Mala Services can be submitted in writing through the contact form on our Website.
 
-## 12. Restricted Use and Intellectual Property Rights
+#### 12. Restricted Use and Intellectual Property Rights
 
 12.1 We own or hold the rights to any and all intellectual property in our Website and App (“Core IP”), as well all intellectual property and other rights in all material (including all text, graphics, logos, audio, and software) made available on or through our Website and App (“Content”).
 
@@ -307,7 +307,7 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 12.6 All other use, copying, or reproduction of our Core IP, Website, App, or Content (or any part of it) is strictly prohibited in accordance with applicable law.
 
-## 13. Availability and Security
+#### 13. Availability and Security
 
 13.1 You are responsible for maintaining the secrecy of the login credentials to your Mala Account with us. You are required to notify us immediately of the loss, theft, or possible unauthorized use of your Mala Account via the App.
 
@@ -329,7 +329,7 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 13.10 We shall not be held liable for damage caused by or related to any viruses or other code that may affect any equipment (including but not limited to your mobile device), software, data, or other property either directly or indirectly as a result of your download, installation, access to, or use of the App or Website or your obtaining any material from, or as a result of using, the App or Website. We shall also not be liable for the actions of third parties.
 
-## 14. Data Protection
+#### 14. Data Protection
 
 14.1 Mala and our affiliates will process your data in accordance with all applicable data protection regulations.
 
@@ -355,7 +355,7 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 14.6 We have implemented adequate technical and organizational measures to prevent any unauthorized access or loss of your personal data.
 
-## 15. Disclaimer
+#### 15. Disclaimer
 
 15.1 We hereby exclude all warranties and conditions, whether express or implied by statute, common law or otherwise, to the extent permitted by law that:
 
@@ -375,7 +375,7 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 15.5 Mala hereby excludes any and all liability for any loss or damages incurred by you or a third party as a result of any act or omission by us in respect of the provision of the Mala Services, the Website, or the App.
 
-## 16. Liability
+#### 16. Liability
 
 16.1 Neither you nor Mala excludes or limits liability for:
 
@@ -405,7 +405,7 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 16.5 Without prejudice to clause 16.4 above, to the extent permitted by law, you hereby indemnify, release, and hold harmless Mala, our directors, officers, employees, and agents from and against any and all losses, actions, claims (actual or threatened), proceedings (including proceedings where we are joined pursuant to any proportionate liability regime) or demands (including any costs and expenses in defending or servicing same) which may be brought against us, in respect of any loss (including any indirect or consequential loss, loss of opportunity, loss of revenue, loss of profit, loss of reputation), death, injury, illness, or damage to persons or property, and whether direct or indirect and in respect of any breach of any industrial or intellectual property rights, howsoever arising out of the use of, reliance on, or benefit of, any Products purchased from a Merchant.
 
-## 17. Term and Termination
+#### 17. Term and Termination
 
 17.1 These Terms represent an agreement you have with us for the duration of your use of the Mala Services.
 
@@ -423,7 +423,7 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 17.8 We will retain your information after the closure of your Mala Account in accordance with our privacy policy.
 
-## 18. Miscellaneous
+#### 18. Miscellaneous
 
 18.1 These Terms contain all the terms agreed between us and you regarding their subject matter and supersede and exclude any prior terms and conditions, understanding, or arrangement between us and you, whether oral or in writing.
 
@@ -431,8 +431,8 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 18.3 Our failure or delay in exercising any of our rights under these Terms does not mean that we are unable to exercise those rights later.
 
-## 19. Governing Law and Jurisdiction
+#### 19. Governing Law and Jurisdiction
 
-19.1 These Terms, the provision of the Mala Services, and all contracts concluded by us are governed by the laws of the Dubai International Financial Centre.
+19.1 These Terms, the provision of the Mala Services, and all contracts concluded by us are governed by the laws of the Abu Dhabi Global Market.
 
-19.2 You irrevocably agree that the competent courts of the Dubai International Financial Centre shall have exclusive jurisdiction to settle any dispute or claim that arises out of or in connection with these Terms, the provision of the Mala Services, and any contracts concluded between us.
+19.2 You irrevocably agree that the competent courts of the Abu Dhabi Global Market shall have exclusive jurisdiction to settle any dispute or claim that arises out of or in connection with these Terms, the provision of the Mala Services, and any contracts concluded between us.

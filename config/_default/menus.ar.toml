@@ -33,9 +33,14 @@ weight = 1
 [[footer]]
 name = "تواصل معنا"
 url = "#contact-us"
-weight = 6
+weight = 2
 
 [[footer]]
 name = "الاسئلة الشائعة"
 url = "faq/"
 weight = 3
+
+[[footer]]
+name = "الشروط والأحكام"
+url = "terms-conditions/"
+weight = 4
