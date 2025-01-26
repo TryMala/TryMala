@@ -131,11 +131,11 @@ button = "I Accept"
 
 ############################# social site ########################
 [[social]]
-title = "twitter"
-icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
+title = "𝕏"
+icon = "fa-brands fa-square-x-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://x.com/TryMalaKSA" 
 
 [[social]]
-title = "linkedin"
+title = ""
 icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://www.linkedin.com/company/trymala/"
