@@ -1,0 +1,124 @@
+.features-grid {
+  padding: 4rem 2rem;
+  
+  .segments-selector {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+
+    .segment-button {
+      padding: 0.75rem 1.5rem;
+      border: 2px solid #e5e7eb;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      background: white;
+      transition: all 0.2s ease;
+      font-weight: 500;
+      min-width: 120px;
+      
+      &:hover {
+        border-color: #9333EA;
+        color: #9333EA;
+      }
+
+      &.active {
+        background: #9333EA;
+        color: white;
+        border-color: #9333EA;
+      }
+    }
+  }
+
+  .features-container {
+    display: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+    &[data-segment] {
+      &:first-child {
+        display: block;
+      }
+    }
+  }
+
+  .features-box {
+    background: white;
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+    border: 1px solid #e5e7eb;
+  }
+
+  .features-grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    margin-bottom: 2rem;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: right;
+
+    .icon-wrapper {
+      margin-bottom: 1.5rem;
+      background: #f9f5ff;
+      padding: 0.75rem;
+      border-radius: 0.75rem;
+    }
+
+    .icon {
+      svg {
+        width: 24px;
+        height: 24px;
+        color: #9333EA;
+      }
+    }
+
+    h3 {
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #1f2937;
+    }
+
+    p {
+      color: #6b7280;
+      line-height: 1.6;
+      margin: 0;
+    }
+  }
+
+  .learn-more-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .learn-more {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    background: #9333EA;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      background: #7403dd;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{{ with .Params.features_section }}
+  {{ if .enabled }}
+  <section class="features-grid">
+    <!-- Segments Selector -->
+    <div class="segments-selector">
+      {{ range sort .segments "priority" }}
+        {{ if .enabled }}
+          <button class="segment-button" data-segment="{{ .id }}">
+            {{ .title }}
+          </button>
+        {{ end }}
+      {{ end }}
+    </div>
+    
+    <!-- Features Container -->
+    {{ range sort .segments "priority" }}
+      {{ if .enabled }}
+        <div class="features-container" data-segment="{{ .id }}" style="display: none;">
+          <div class="features-box">
+            <div class="features-grid-layout">
+              {{ range sort .features "priority" }}
+                {{ if .enabled }}
+                  <div class="feature-item">
+                    <div class="icon-wrapper">
+                      <div class="icon">
+                        {{ partial "icons" .icon }}
+                      </div>
+                    </div>
+                    <h3>{{ .title }}</h3>
+                    <p>{{ .description }}</p>
+                  </div>
+                {{ end }}
+              {{ end }}
+            </div>
+            {{ with .know_more }}
+              {{ if .enabled }}
+                <div class="learn-more-wrapper">
+                  <a href="{{ .path }}" class="learn-more">اعرف اكثر</a>
+                </div>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+  </section>
+  {{ end }}
+{{ end }}

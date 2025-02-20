@@ -94,4 +94,43 @@
       }
     }
   }
+
+  .features-grid {
+    // Text alignment for RTL
+    .feature-card {
+      text-align: center; // Keep center alignment for cards
+      
+      // Adjust any directional margins/paddings if needed
+      .icon {
+        margin-left: 0;
+        margin-right: 0; // Keep centered
+      }
+    }
+
+    // Adjust any directional flexbox ordering if needed
+    .segments-selector {
+      flex-direction: row; // Keep default direction for centered buttons
+    }
+
+    // If you have any arrows or directional icons
+    .know-more {
+      &::after {
+        transform: scaleX(-1); // Flip any directional icons
+      }
+    }
+
+    // If you add any left/right aligned content later
+    .feature-card-content {
+      text-align: right;
+    }
+    
+    // If you add any directional animations later
+    .feature-card {
+      &:hover {
+        .icon {
+          transform: scaleX(-1); // Flip any directional animations
+        }
+      }
+    }
+  }
 }

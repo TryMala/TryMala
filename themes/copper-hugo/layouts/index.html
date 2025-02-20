@@ -130,6 +130,8 @@
 {{ end }}
 <!-- end of brand-carousel -->
 
+{{ partial "features-grid.html" . }}
+
 <!-- start of how-it-works tab -->
 {{ if .Params.homepage_tab.enable }}
 {{ with .Params.homepage_tab }}
@@ -442,6 +444,7 @@
 {{ end }}
 {{ end }}
 
+{{ partial "features-grid.html" . }}
 
 {{ partial "components/testimonial.html" . }}
 

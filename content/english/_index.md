@@ -39,9 +39,10 @@ banner:
 #   - "images/brands/06-colored.png"
   
 
+
 ########################## How it works #########################
 homepage_tab:
-  enable : true
+  enable : false
   title : "**B2B Excellence Made Simple**"
   # content : "Experience the transformative power of Mala as it empowers businesses to access essential goods without burdening their cash flow or tying up working capital"
   tablist:
@@ -238,5 +239,138 @@ contact:
 #     image : "images/users/02.jpg"
 #     designation : "CEO, Angular Corporation"
 #     content : "Lorem ipsum dolor sit amet, kasd gubergren, seatakimata dolores et rebum stetclita"
+
+
+features_section:
+  enabled: true
+  segments:
+    - id: "contractor"
+      title: "مقاول"
+      enabled: true
+      priority: 1
+      know_more:
+        enabled: true
+        path: "/features/contractor"
+      features:
+        - id: "split-payments"
+          title: "تقسيم المدفوعات على فترات مريحة"
+          description: "تقدر تدفع قيمة مشترياتك على دفعات موزعة على فترة زمنية تصل للسنتين، وهذا يسهل عليك تنظيم ميزانيتك بشكل أفضل وتوزيع التكاليف على مراحل المشروع."
+          icon: "calendar-clock"
+          enabled: true
+          priority: 1
+        - id: "avoid-delays"
+          title: "تجنب تأخير المشاريع"
+          description: "لما تكون المواد متاحة بالدفع الآجل، تقدر تضمن استمرارية العمل بدون توقف أو انتظار وهذا يعني إنك تقدر تسلم المشاريع في وقتها."
+          icon: "timer"
+          enabled: true
+          priority: 2
+        - id: "materials-access"
+          title: "تسهيل الحصول على المواد"
+          description: "ما تحتاج تنتظر لجمع المبلغ المطلوب لشراء المواد، مع بلد ناو، احصل على المواد اللي تحتاجها فوراً وابدأ مشروعك بدون تأخير."
+          icon: "box"
+          enabled: true
+          priority: 3
+        - id: "grow-projects"
+          title: "كبّر مشاريعك"
+          description: "خدمات بلد ناو للدفع الآجل تساعدك في تنفيذ مشاريع أكثر وفي نفس الوقت، لأنه ما عاد في ضغط تجمع كل ثمن المواد مقدماً."
+          icon: "chart-up"
+          enabled: true
+          priority: 4
+
+    - id: "merchant"
+      title: "تاجر"
+      enabled: true
+      priority: 2
+      know_more:
+        enabled: false
+        path: "/features/merchant"
+      features:
+        - id: "increase-sales"
+          title: "زيادة المبيعات"
+          description: "قدم لعملائك خيار الدفع الآجل وشوف كيف تزيد مبيعاتك"
+          icon: "chart-bar"
+          enabled: true
+          priority: 1
+        - id: "new-customers"
+          title: "عملاء جدد"
+          description: "افتح أسواق جديدة واستقطب عملاء ما كانوا يقدرون يشترون بالدفع المباشر"
+          icon: "users"
+          enabled: true
+          priority: 2
+        - id: "guaranteed-payment"
+          title: "ضمان السداد"
+          description: "استلم مستحقاتك فوراً وبدون مخاطر"
+          icon: "shield-check"
+          enabled: true
+          priority: 3
+        - id: "easy-integration"
+          title: "سهولة الربط"
+          description: "اربط نظامك مع بلد ناو بكل سهولة وابدأ البيع"
+          icon: "plug"
+          enabled: true
+          priority: 4
+
+    - id: "manufacturer"
+      title: "مصنّع"
+      enabled: true
+      priority: 3
+      know_more:
+        enabled: false
+        path: "/features/manufacturer"
+      features:
+        - id: "expand-market"
+          title: "توسيع السوق"
+          description: "وصّل منتجاتك لشريحة أكبر من العملاء"
+          icon: "globe"
+          enabled: true
+          priority: 1
+        - id: "direct-payment"
+          title: "دفع فوري"
+          description: "احصل على مستحقاتك مباشرة عند البيع"
+          icon: "cash"
+          enabled: true
+          priority: 2
+        - id: "stock-management"
+          title: "إدارة المخزون"
+          description: "تحكم بمخزونك بشكل أفضل مع زيادة المبيعات"
+          icon: "warehouse"
+          enabled: true
+          priority: 3
+
+    - id: "supplier"
+      title: "مورّد"
+      enabled: true
+      priority: 4
+      know_more:
+        enabled: false
+        path: "/features/supplier"
+      features:
+        - id: "wider-reach"
+          title: "وصول أوسع"
+          description: "وصّل منتجاتك لعملاء أكثر في السوق"
+          icon: "target"
+          enabled: true
+          priority: 1
+        - id: "secure-sales"
+          title: "مبيعات آمنة"
+          description: "بيع بثقة مع ضمان السداد من بلد ناو"
+          icon: "lock"
+          enabled: true
+          priority: 2
+
+    - id: "distributor"
+      title: "موزّع"
+      enabled: true
+      priority: 5
+      know_more:
+        enabled: false
+        path: "/features/distributor"
+      features:
+        - id: "network-expansion"
+          title: "توسيع شبكة التوزيع"
+          description: "وسّع شبكة توزيعك مع حلول التمويل المرنة"
+          icon: "network"
+          enabled: true
+          priority: 1
 
 ---
