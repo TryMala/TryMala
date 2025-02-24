@@ -4,13 +4,20 @@ let initialized = false;
 
 // Initialize features grid functionality
 function initializeFeaturesGrid() {
+  console.log('Initializing features grid...'); // Debug log
+  
   if (initialized) return;
   
   const segmentButtons = document.querySelectorAll('.segment-button');
   const featureContainers = document.querySelectorAll('.features-container');
+  
+  console.log('Found buttons:', segmentButtons.length); // Debug log
+  console.log('Found containers:', featureContainers.length); // Debug log
 
   // Function to show selected segment
   function showSegment(segmentId) {
+    console.log('Showing segment:', segmentId); // Debug log
+    
     if (!segmentId) return;
     
     // Update active segment
@@ -19,7 +26,7 @@ function initializeFeaturesGrid() {
     // Update containers visibility
     featureContainers.forEach(container => {
       const containerSegment = container.getAttribute('data-segment');
-      container.style.display = containerSegment === segmentId ? 'block' : 'none';
+      container.style.display = containerSegment === segmentId ? 'block' : 'none'; // Changed back to 'block'
     });
 
     // Update button states

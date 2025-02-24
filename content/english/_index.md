@@ -11,7 +11,7 @@ banner:
   form:
     enable : true
     form_action : "https://formspree.io/f/xpwzlazr"
-    button_label : "I’m Interested"
+    button_label : "I'm Interested"
   # button:
   #   enable : true
   #   icon : "images/brands/google.png"
@@ -240,137 +240,80 @@ contact:
 #     designation : "CEO, Angular Corporation"
 #     content : "Lorem ipsum dolor sit amet, kasd gubergren, seatakimata dolores et rebum stetclita"
 
-
+############## Features Grid, this section accepts 5 segments. Each segment can have up to 4 features. ############### 
 features_section:
   enabled: true
   segments:
-    - id: "contractor"
-      title: "مقاول"
+    - id: "buyer"
+      title: "Buyer"
       enabled: true
       priority: 1
       know_more:
-        enabled: true
-        path: "/features/contractor"
+        enabled: false
+        path: "/features/buyer"
       features:
-        - id: "split-payments"
-          title: "تقسيم المدفوعات على فترات مريحة"
-          description: "تقدر تدفع قيمة مشترياتك على دفعات موزعة على فترة زمنية تصل للسنتين، وهذا يسهل عليك تنظيم ميزانيتك بشكل أفضل وتوزيع التكاليف على مراحل المشروع."
-          icon: "calendar-clock"
+        - id: "cash-flow"
+          title: "Cash Flow Liberation"
+          description: "With Mala, businesses unlock the power to procure goods without cash flow constraints. This means more than just financial relief—it's the freedom to invest in growth, seize opportunities, and thrive in any economic climate"
+          icon: "coins" # Matching the Arabic coins/money icon
           enabled: true
           priority: 1
-        - id: "avoid-delays"
-          title: "تجنب تأخير المشاريع"
-          description: "لما تكون المواد متاحة بالدفع الآجل، تقدر تضمن استمرارية العمل بدون توقف أو انتظار وهذا يعني إنك تقدر تسلم المشاريع في وقتها."
-          icon: "timer"
+
+        - id: "capital-empowerment"
+          title: "Capital Empowerment"
+          description: "Mala empowers businesses to optimize their working capital utilization like never before. By minimizing tied-up funds and maximizing efficiency, organizations can supercharge their operations, fuel innovation, and stay ahead of the competition"
+          icon: "capital" # Matching the Arabic circle icon
           enabled: true
           priority: 2
-        - id: "materials-access"
-          title: "تسهيل الحصول على المواد"
-          description: "ما تحتاج تنتظر لجمع المبلغ المطلوب لشراء المواد، مع بلد ناو، احصل على المواد اللي تحتاجها فوراً وابدأ مشروعك بدون تأخير."
-          icon: "box"
+
+        - id: "growth-catalyst"
+          title: "Rapid Growth Catalyst"
+          description: "Say goodbye to slow growth. With Mala, expansion is not just possible—it's inevitable. By removing barriers to procurement, businesses can accelerate their growth trajectory, enter new markets, and scale operations faster than ever before"
+          icon: "chart-line" # Matching the Arabic chart icon
           enabled: true
           priority: 3
-        - id: "grow-projects"
-          title: "كبّر مشاريعك"
-          description: "خدمات بلد ناو للدفع الآجل تساعدك في تنفيذ مشاريع أكثر وفي نفس الوقت، لأنه ما عاد في ضغط تجمع كل ثمن المواد مقدماً."
-          icon: "chart-up"
+
+        - id: "flexible-payments"
+          title: "Flexible Payment Plans"
+          description: "Enjoy payment flexibility that suits your business needs. Choose payment plans that work for you and benefit from grace periods of up to 90 days"
+          icon: "calendar" # Matching the Arabic calendar icon
           enabled: true
           priority: 4
 
-    - id: "merchant"
-      title: "تاجر"
+    - id: "seller"
+      title: "Seller"
       enabled: true
       priority: 2
       know_more:
         enabled: false
-        path: "/features/merchant"
+        path: "/features/seller"
       features:
         - id: "increase-sales"
-          title: "زيادة المبيعات"
-          description: "قدم لعملائك خيار الدفع الآجل وشوف كيف تزيد مبيعاتك"
+          title: "Boost Sales and Profits"
+          description: "Double your sales with our BNPL solutions. When customers can split payments, they buy more, leading to increased average order values and improved profit margins"
           icon: "chart-bar"
           enabled: true
           priority: 1
-        - id: "new-customers"
-          title: "عملاء جدد"
-          description: "افتح أسواق جديدة واستقطب عملاء ما كانوا يقدرون يشترون بالدفع المباشر"
-          icon: "users"
+
+        - id: "instant-payment"
+          title: "100% Instant Payment"
+          description: "Get paid immediately for all your sales, with no waiting or risks. We handle all collection risks, ensuring you maintain stable and continuous cash flow"
+          icon: "lightning-payment"
           enabled: true
           priority: 2
-        - id: "guaranteed-payment"
-          title: "ضمان السداد"
-          description: "استلم مستحقاتك فوراً وبدون مخاطر"
-          icon: "shield-check"
+
+        - id: "new-customers"
+          title: "Expand Customer Base"
+          description: "Access new markets and attract a broader customer segment. Flexible financing solutions enable businesses to purchase in larger quantities and more frequently"
+          icon: "users-plus"
           enabled: true
           priority: 3
-        - id: "easy-integration"
-          title: "سهولة الربط"
-          description: "اربط نظامك مع بلد ناو بكل سهولة وابدأ البيع"
-          icon: "plug"
+
+        - id: "seamless-integration"
+          title: "Quick and Seamless Integration"
+          description: "Start selling within days with flexible integration solutions that fit your business system. We provide full support at every step of the integration and operation process"
+          icon: "puzzle"
           enabled: true
           priority: 4
-
-    - id: "manufacturer"
-      title: "مصنّع"
-      enabled: true
-      priority: 3
-      know_more:
-        enabled: false
-        path: "/features/manufacturer"
-      features:
-        - id: "expand-market"
-          title: "توسيع السوق"
-          description: "وصّل منتجاتك لشريحة أكبر من العملاء"
-          icon: "globe"
-          enabled: true
-          priority: 1
-        - id: "direct-payment"
-          title: "دفع فوري"
-          description: "احصل على مستحقاتك مباشرة عند البيع"
-          icon: "cash"
-          enabled: true
-          priority: 2
-        - id: "stock-management"
-          title: "إدارة المخزون"
-          description: "تحكم بمخزونك بشكل أفضل مع زيادة المبيعات"
-          icon: "warehouse"
-          enabled: true
-          priority: 3
-
-    - id: "supplier"
-      title: "مورّد"
-      enabled: true
-      priority: 4
-      know_more:
-        enabled: false
-        path: "/features/supplier"
-      features:
-        - id: "wider-reach"
-          title: "وصول أوسع"
-          description: "وصّل منتجاتك لعملاء أكثر في السوق"
-          icon: "target"
-          enabled: true
-          priority: 1
-        - id: "secure-sales"
-          title: "مبيعات آمنة"
-          description: "بيع بثقة مع ضمان السداد من بلد ناو"
-          icon: "lock"
-          enabled: true
-          priority: 2
-
-    - id: "distributor"
-      title: "موزّع"
-      enabled: true
-      priority: 5
-      know_more:
-        enabled: false
-        path: "/features/distributor"
-      features:
-        - id: "network-expansion"
-          title: "توسيع شبكة التوزيع"
-          description: "وسّع شبكة توزيعك مع حلول التمويل المرنة"
-          icon: "network"
-          enabled: true
-          priority: 1
 
 ---

@@ -60,9 +60,3 @@
 
 <!-- progressive web app -->
 {{ partialCached "pwa.html" . }}
-
-{{ if .IsHome }} <!-- This ensures the script only loads on homepage -->
-  {{ $features := resources.Get "js/features.js" }}
-  {{ $featuresJS := $features | resources.Minify | resources.Fingerprint }}
-  <script src="{{ $featuresJS.RelPermalink }}"></script>
-{{ end }}

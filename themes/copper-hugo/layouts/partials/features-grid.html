@@ -15,7 +15,7 @@
     <!-- Features Container -->
     {{ range sort .segments "priority" }}
       {{ if .enabled }}
-        <div class="features-container" data-segment="{{ .id }}" style="display: none;">
+        <div class="features-container" data-segment="{{ .id }}">
           <div class="features-box">
             <div class="features-grid-layout">
               {{ range sort .features "priority" }}

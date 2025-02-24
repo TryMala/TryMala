@@ -146,14 +146,14 @@ features_section:
         - id: "cash-flow"
           title: "التدفق النقدي بلا قيود"
           description: "مع مالا، تطلق الشركات العنان لقدرتها على شراء البضائع دون قيود التدفق النقدي. هذا يعني أكثر من مجرد راحة مالية - إنها الحرية في الاستثمار في النمو، واغتنام الفرص، والازدهار في أي مناخ اقتصادي"
-          icon: "cash-flow"
+          icon: "coins"
           enabled: true
           priority: 1
 
         - id: "capital-empowerment"
           title: "تمكين رأس المال"
           description: "تمكّن مالا الشركات من تحسين استخدام رأس المال العامل بشكل غير مسبوق. من خلال تقليل الأموال المقيدة وتعظيم الكفاءة، يمكن للمؤسسات تعزيز عملياتها، وتغذية الابتكار، والبقاء في المقدمة"
-          icon: "chart-up"
+          icon: "capital"
           enabled: true
           priority: 2
 
@@ -189,21 +189,21 @@ features_section:
         - id: "instant-payment"
           title: "دفع فوري ١٠٠٪"
           description: "احصل على كامل قيمة مبيعاتك فوراً، بدون انتظار أو مخاطر. نحن نتحمل مخاطر التحصيل بالكامل، مما يضمن لك تدفق نقدي مستقر ومستمر"
-          icon: "cash"
+          icon: "lightning-payment"
           enabled: true
           priority: 2
 
         - id: "new-customers"
           title: "توسيع قاعدة العملاء"
           description: "افتح أسواقاً جديدة واستقطب شريحة أكبر من العملاء. حلول التمويل المرنة تمكن الشركات من الشراء بكميات أكبر وبشكل متكرر"
-          icon: "users"
+          icon: "users-plus"
           enabled: true
           priority: 3
 
         - id: "seamless-integration"
           title: "تكامل سلس وسريع"
           description: "ابدأ البيع خلال أيام مع حلول تكامل مرنة تناسب نظام عملك. نوفر لك الدعم الكامل في كل خطوة من عملية الربط والتشغيل"
-          icon: "plug"
+          icon: "puzzle"
           enabled: true
           priority: 4
 
