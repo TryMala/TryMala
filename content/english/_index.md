@@ -243,6 +243,7 @@ contact:
 ############## Features Grid, this section accepts 5 segments. Each segment can have up to 4 features. ############### 
 features_section:
   enabled: true
+  title: "Power Your **Business Growth**"
   segments:
     - id: "buyer"
       title: "Buyer"
