@@ -139,3 +139,6 @@ link = "https://x.com/TryMalaKSA"
 title = ""
 icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "https://www.linkedin.com/company/trymala/"
+
+[hubspot]
+portal_id = "48651825"  # Replace with your actual HubSpot portal ID
