@@ -254,23 +254,24 @@ features_section:
         path: "/features/buyer"
       features:
         - id: "cash-flow"
-          title: "Cash Flow Liberation"
-          description: "With Mala, businesses unlock the power to procure goods without cash flow constraints. This means more than just financial relief—it's the freedom to invest in growth, seize opportunities, and thrive in any economic climate"
-          icon: "coins" # Matching the Arabic coins/money icon
+          title: "Improve Cash Flow"
+          description: "Get the goods you need today and pay later. Maintain your liquidity and invest it in developing your business"
+          icon: "coins"
           enabled: true
           priority: 1
 
+
         - id: "capital-empowerment"
-          title: "Capital Empowerment"
-          description: "Mala empowers businesses to optimize their working capital utilization like never before. By minimizing tied-up funds and maximizing efficiency, organizations can supercharge their operations, fuel innovation, and stay ahead of the competition"
-          icon: "capital" # Matching the Arabic circle icon
+          title: "Increase Purchasing Power"
+          description: "Double your purchasing power and benefit from volume offers and exclusive discounts. Buy bigger and smarter without the need for additional capital"
+          icon: "capital"
           enabled: true
           priority: 2
 
         - id: "growth-catalyst"
-          title: "Rapid Growth Catalyst"
-          description: "Say goodbye to slow growth. With Mala, expansion is not just possible—it's inevitable. By removing barriers to procurement, businesses can accelerate their growth trajectory, enter new markets, and scale operations faster than ever before"
-          icon: "chart-line" # Matching the Arabic chart icon
+          title: "Accelerate Business Growth"
+          description: "Respond quickly to market needs and expansion opportunities without waiting for capital cycles. Have the flexibility to invest in multiple areas simultaneously"
+          icon: "chart-line"
           enabled: true
           priority: 3
 
@@ -289,19 +290,19 @@ features_section:
         enabled: false
         path: "/features/seller"
       features:
+        - id: "instant-payment"
+          title: "100% Instant Payment"
+          description: "Get paid immediately for all your sales, with no waiting or risks. We handle all collection risks, ensuring you maintain stable and continuous cash flow"
+          icon: "lightning-payment"
+          enabled: true
+          priority: 1
+
         - id: "increase-sales"
           title: "Boost Sales and Profits"
           description: "Double your sales with our BNPL solutions. When customers can split payments, they buy more, leading to increased average order values and improved profit margins"
           icon: "chart-bar"
           enabled: true
           priority: 1
-
-        - id: "instant-payment"
-          title: "100% Instant Payment"
-          description: "Get paid immediately for all your sales, with no waiting or risks. We handle all collection risks, ensuring you maintain stable and continuous cash flow"
-          icon: "lightning-payment"
-          enabled: true
-          priority: 2
 
         - id: "new-customers"
           title: "Expand Customer Base"
