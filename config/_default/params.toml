@@ -79,10 +79,20 @@ enableQQ = false # https://valine.js.org/en/configuration.html#enableQQ
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["Copper", "Hugo", "Gethugothemes", "Themefisher"]
-description = "This is meta description"
-author = "Gethugothemes"
-image = "images/logo.png"                                       # this image will be used as fallback if a page has no image of its own
+keywords = [
+    "B2B Payments",
+    "Business Solutions",
+    "Saudi Arabia",
+    "Business Growth",
+    "B2B Platform",
+    "Business Payments",
+    "Enterprise Solutions",
+    "Saudi Business",
+    "Digital Business Solutions"
+]
+description = "Empower your business with Mala's flexible B2B payment solutions. Connect buyers and sellers with our innovative business platform in Saudi Arabia."
+author = "Mala"
+image = "images/logo.png"    # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/
 [matomo]
