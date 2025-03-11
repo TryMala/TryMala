@@ -61,7 +61,7 @@ No fees are charged to the buyer if the payment is completed as per the agreed t
 
 {{< accordion "What happens if the buyer fails to complete payment within the specified period?" >}}
 <br>
-An additional 4% per month will be charged on the total outstanding amount.
+A processing and admin fees (5%) will be applied per additional month on the total outstanding amount.
 
 {{</ accordion >}}
 
