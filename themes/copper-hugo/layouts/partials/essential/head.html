@@ -34,6 +34,16 @@
 <!-- site verifications -->
 {{ partialCached "site-verifications.html" . }}
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16932885497">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16932885497');
+</script>
 
 <!-- opengraph and twitter card -->
 {{ partial "basic-seo.html" . }}
