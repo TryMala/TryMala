@@ -28,7 +28,10 @@ AUTHOR WEBSITE: https://gethugothemes.com
 	  {{ $featuresJS := $features | resources.Minify | resources.Fingerprint }}
 	  <script defer src="{{ $featuresJS.RelPermalink }}"></script>
 	{{ end }}
-	{{ partial "hubspot.html" . }}
+<!--
+		{{ partial "hubspot.html" . }}
+-->
+	{{ partial "whatsapp.html" . }}
 </body>
 
 </html>
