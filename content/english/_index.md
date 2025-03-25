@@ -120,7 +120,7 @@ tools:
 ############################## Achivement ##############################
 achivement:
   enable : true
-  title : "Available in **Online** and **Offline** Channels"
+  title : "**BNPL Solutions** Everywhere You Need"
   # content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et"
   # funfacts:
   # - name : "Years Of <br> Experience"
