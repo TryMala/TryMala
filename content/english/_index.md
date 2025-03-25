@@ -155,22 +155,22 @@ achivement:
 ############################## Workflow ################################
 workflow:
   enable : true
-  title : "**Dive into Mala In Easy Steps**"
+  title : "Get Started with **Mala**"
   tablist:
   # tab item
-  - name : "Register online to kickstart your Mala journey"
-    title : "Register online to kickstart your Mala journey"
+  - name : "Create your account"
+    title : "Create your account"
     label : "**Sign Up**"
       
   # tab item
-  - name : "Share Business Info"
-    title : "Provide details about your business effortlessly"
-    label : "**Share Business Info**"
+  - name : "Complete business verification"
+    title : "Complete business verification"
+    label : "**Verify Business**"
 
   # tab item
-  - name : "Receive Goods"
-    title : "Get your approved goods delivered straight to you"
-    label : "**Receive Goods**"
+  - name : "Start purchasing with BNPL"
+    title : "Start purchasing with BNPL"
+    label : "**Start Purchasing**"
   # image : "images/screenshots/03.png"
   # content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed."
   
