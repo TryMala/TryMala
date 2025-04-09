@@ -7,17 +7,17 @@ weight = 1
 
 [[main]]
 name = "Benefits"
-url = "#b2b-excellence-made-simple"
+url = "#features"
 weight = 2
 
 [[main]]
 name = "Channels"
-url = "#available-in-online-and-offline-channels"
+url = "#channels"
 weight = 3
 
 [[main]]
 name = "Security"
-url = "#malas-robust-security"
+url = "#security"
 weight = 4
 
 [[main]]

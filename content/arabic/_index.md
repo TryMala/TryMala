@@ -14,7 +14,7 @@ banner:
 
 homepage_tab:
   enable: false
-  section_id: "features"
+  section_id: "features1"
   title: "**التميز في خدمـات الشـركات**"
   tablist:
   # tab item
@@ -134,6 +134,7 @@ contact:
 ############## Features Grid, this section accepts 5 segments. Each segment can have up to 4 features. ############### 
 features_section:
   enabled: true
+  section_id: "features"
   title: "التميز في خدمـات **الشـركات**"
   segments:
     - id: "buyer"

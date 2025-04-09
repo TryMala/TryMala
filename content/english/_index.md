@@ -120,6 +120,7 @@ tools:
 ############################## Achivement ##############################
 achivement:
   enable : true
+  section_id: "channels"
   title : "**BNPL Solutions** Everywhere You Need"
   # content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et"
   # funfacts:
@@ -178,6 +179,7 @@ workflow:
 ############################## about us ################################
 about_us:
   enable : true
+  section_id: "security" 
   title : "**Mala's Robust Security**"
   image : "images/about/01.jpg"
   # content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores"
@@ -243,6 +245,7 @@ contact:
 ############## Features Grid, this section accepts 5 segments. Each segment can have up to 4 features. ############### 
 features_section:
   enabled: true
+  section_id: "features"
   title: "Power Your **Business Growth**"
   segments:
     - id: "buyer"

@@ -1,6 +1,6 @@
 {{ with .Params.features_section }}
   {{ if .enabled }}
-  <section class="features-grid section">
+  <section class="features-grid section" id="{{ .section_id }}">
     <div class="container">
       {{ with .title }}
       <div class="section-title text-center mb-5">
