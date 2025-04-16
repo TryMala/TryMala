@@ -11,6 +11,10 @@ AUTHOR WEBSITE: https://gethugothemes.com
 	{{ partialCached "components/preloader.html" . }}
 
 <body data-spy="scroll" data-bs-target="#navbar-spy" class="position-relative {{if not site.Params.preloader.enable}}{{end}} {{ if eq site.Language.Lang `ar` }}rtl{{ end }}">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SKLHKKF"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	{{ partialCached "components/preloader.html" . }}
   {{ .Scratch.Set "bg" "bg-light-gray" }}
 	{{ partial "essential/header.html" . }}
