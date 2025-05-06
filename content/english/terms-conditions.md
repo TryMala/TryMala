@@ -351,7 +351,7 @@ Mala calculates these fees to ensure fairness and to encourage timely payments. 
 
 14.4 You hereby acknowledge and agree that we may share any personal data we hold on you with the Merchants from whom you have bought Products.
 
-14.5 You can request details of your personal information held by us by contacting us via email at [support@mala.sa](mailto\:support@mala.sa), and may request corrections to any personal data we hold about you in cases where the information is incorrect.
+14.5 You can request details of your personal information held by us by contacting us via email at [support@trymala.com](mailto\:support@trymala.com), and may request corrections to any personal data we hold about you in cases where the information is incorrect.
 
 14.6 We have implemented adequate technical and organizational measures to prevent any unauthorized access or loss of your personal data.
 
